@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.heartfoundation.org.au/getmedia/76ffe0f6-90ff-427d-aecc-b2e7a8bf776a/BMI-calculator.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+  }
+  
+  .canvas-container {
+    max-height: 300px; 
+    overflow: auto;
+  }
+  
+  h1 {
+    color: #050505;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  .input-section {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: #f8eeee;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #0f0d0d;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  button {
+    background-color: #1ea0f7;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2076ae;
+  }
+  
+  .result-container {
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: #eda08b;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  canvas {
+    max-width: 100%;
+  }
+  
